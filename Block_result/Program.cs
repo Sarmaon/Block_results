@@ -3,7 +3,7 @@
 
 string[] mainString = MainStringArray();
 PrintArray(mainString);
-Console.Write("->");
+Console.WriteLine(" ");
 int count = CountNewLenght(mainString);
 string[] newString = NewStringArray(mainString, count);
 PrintArray(newString);
